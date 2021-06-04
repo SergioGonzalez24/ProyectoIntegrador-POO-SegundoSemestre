@@ -8,7 +8,7 @@ CXXFLAGS = -std=c++11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = ../build/ProyectoIntegrador
+APPNAME = ../app/ProyectoIntegrador
 EXT = .cpp
 SRCDIR = ../src
 OBJDIR = ../build/obj

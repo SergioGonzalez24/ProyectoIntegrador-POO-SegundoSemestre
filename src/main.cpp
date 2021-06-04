@@ -10,6 +10,6 @@ Fecha de creacion 03/05/2021
 Modelar un servicio de Streaming Utilizando OPP en c++
 */
 
-int main(int argc, char) {
+int main() {
     return 0;
 }
