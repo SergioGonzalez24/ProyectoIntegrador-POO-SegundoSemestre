@@ -16,6 +16,8 @@ class Contenido {
     public:
         Contenido();
         Contenido(string t, int d);
+        void setCalificacion(int c);
+        int getCalificacion(){return calificacion;}
 
 };
 

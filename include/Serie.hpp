@@ -11,10 +11,12 @@ class Serie : public Contenido {
     private:
         string nombre;
         string genero;
-        Contenido episodio; //Esto debería ser un array o algo así, basicamente una serie debe tener un conjunto de videos
-
+        //Contenido episodio; //Esto debería ser un array o algo así, basicamente una serie debe tener un conjunto de videos
+        string capitulo; //No se si este remplazó al de arriba
+        string temporada;
+        
     public:
-        Serie(string t, int d, string n, string g);
+        Serie(string t, int d, string n, string g, string cap, string tem);
 
 };
 

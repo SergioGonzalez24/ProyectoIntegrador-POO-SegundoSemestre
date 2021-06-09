@@ -4,10 +4,12 @@
 #include <iostream>
 
 //Constructores
-Serie::Serie(string t, int d, string n, string g){
+Serie::Serie(string t, int d, string n, string g, string cap, string tem){
     this-> titulo = t;
     this-> duracion = d;
     this-> nombre = n;
     this-> genero = g;
+    this-> capitulo = cap;
+    this-> temporada = tem;
 }
 

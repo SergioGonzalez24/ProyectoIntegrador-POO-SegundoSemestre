@@ -10,6 +10,7 @@ using namespace std;
 class Pelicula : public Contenido {
     private:
         string genero;
+        int duracionLarga;
 
     public:
         Pelicula(string t, int d, string g);

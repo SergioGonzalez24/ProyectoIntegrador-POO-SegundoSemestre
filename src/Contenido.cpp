@@ -12,3 +12,8 @@ Contenido::Contenido(string t, int d){
     this-> titulo = t;
     this-> duracion = d;
 }
+
+//Calificación
+void Contenido::setCalificacion(int c){
+    this-> calificacion = c;
+}
