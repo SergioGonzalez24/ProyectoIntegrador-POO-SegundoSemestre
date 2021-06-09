@@ -10,15 +10,17 @@ using std::string;
 class Reproduccion  {
 	private:
 		bool reproduccion;
+		float velReproduccion;
 		
 	public:
 		Reproduccion();
 
 		string isReproducido(bool reproduccion);
-		
+
 		void reproducir();
 		void pausar();
-		void siguienteVideo();
-		void anteriorVideo();
+		void adelantar(int valOpt);
+		void retroceder(int valOpt);
+		void repNormal();
 };
 #endif
