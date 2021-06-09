@@ -17,10 +17,10 @@ class Reproduccion  {
 
 		string isReproducido(bool reproduccion);
 
-		void reproducir();
-		void pausar();
-		void adelantar(int valOpt);
-		void retroceder(int valOpt);
-		void repNormal();
+		virtual void reproducir();
+		virtual void pausar();
+		virtual void adelantar(int valOpt);
+		virtual void retroceder(int valOpt);
+		virtual void repNormal();
 };
 #endif
