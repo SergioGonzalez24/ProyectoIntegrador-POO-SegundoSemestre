@@ -11,8 +11,8 @@ ServicioStreaming::ServicioStreaming(string nServicio, string nUsr, string idUsr
     this-> nombre = nServicio;
     //ATORADO
     Usuario usr1(nUsr,idUsr);
-    nombreUsuario = usr1.setNombreUsuario(nUsr);
-    idUsuario = usr1.setIdUsuario(idUsr);
+    usr1.setNombreUsuario(nUsr);
+    usr1.setIdUsuario(idUsr);
 
 
 
