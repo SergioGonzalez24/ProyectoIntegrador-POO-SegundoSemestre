@@ -1,6 +1,6 @@
 //Realizado por Jorge Rojas, A01745334
 
-#include "Contenido.hpp"
+#include "../include/Contenido.hpp"
 #include <iostream>
 
 //Constructores

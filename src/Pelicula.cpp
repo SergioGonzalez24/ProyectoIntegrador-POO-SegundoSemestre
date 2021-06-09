@@ -1,6 +1,6 @@
 //Realizado por Jorge Rojas, A01745334
 
-#include "Pelicula.hpp"
+#include "../include/Pelicula.hpp"
 #include <iostream>
 
 //Constructores
