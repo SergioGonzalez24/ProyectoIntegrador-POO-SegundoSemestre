@@ -8,13 +8,12 @@ using std::string;
 class ServicioStreaming  {
 	private:
 		string nombre;
-
-		Usuario nombreUsuario;
-		Usuario idUsuario;
-
+		Usuario datosUsuario;
 	public:
 		ServicioStreaming();
 		ServicioStreaming(string nServicio, string nUsr, string idUsr);
+		void setDatosUsuario(string nUsr, string idUsr);
 		virtual string getNombreStream() {return nombre;}
+
 };
 #endif

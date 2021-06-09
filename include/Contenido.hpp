@@ -7,11 +7,11 @@
 using namespace std;
 
 class Contenido {
-    private:
-        
+
     protected:
         string titulo;
-        int duracion;
+        float duracion;
+        int calificacion;
         
     public:
         Contenido();
