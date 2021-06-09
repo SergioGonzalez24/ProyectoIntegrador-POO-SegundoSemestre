@@ -1,11 +1,35 @@
-#include "../include/Reproduccion.hpp"  
+#include "../include/Reproduccion.hpp" 
+#include <iostream>
+#include <string>
+
+using std::string;
 	
-Reproduccion::Reproduccion {
-    
+Reproduccion::Reproduccion() {
+    reproduccion = true;
 }
 
-bool Reproduccion::isReproduccion() {
-    
+string Reproduccion::isReproducido(bool reproduccion) {
+
+    string repStatus;
+
+    if (reproduccion == true) {
+        repStatus = "PLAY";
+    }
+
+    else {
+        repStatus = "PAUSA";
+    } 
+
+    return "Actualmente la reproduccion se encuentra en ("+repStatus+")";
 }
+
+void Reproduccion::reproducir(){
+    reproduccion = true;
+}
+void Reproduccion::pausar() {
+    reproduccion = false;
+}
+
+
 
 

@@ -2,6 +2,10 @@
 
 #ifndef REPRODUCCION_H
 #define REPRODUCCION_H
+#include <string>
+
+using std::string;
+
 	
 class Reproduccion  {
 	private:
@@ -10,7 +14,8 @@ class Reproduccion  {
 	public:
 		Reproduccion();
 
-		bool isReproducido();
+		string isReproducido(bool reproduccion);
+		
 		void reproducir();
 		void pausar();
 		void siguienteVideo();
