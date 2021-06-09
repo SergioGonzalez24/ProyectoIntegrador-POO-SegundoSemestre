@@ -12,5 +12,9 @@ ServicioStreaming::ServicioStreaming(string nServicio, string nUsr, string idUsr
     datosUsuario = Usuario(nUsr, idUsr);
 }
 
+void ServicioStreaming::setDatosUsuario(string nUsr, string idUsr) {
+    datosUsuario.setNombreUsuario(nUsr);
+    datosUsuario.setIdUsuario(idUsr);
+}
 
 
