@@ -1,3 +1,5 @@
+//Relizado por Sergio Gonzalez - A01745446
+
 #ifndef STREAMING_H
 #define STREAMING_H
 #include "Usuario.hpp"
