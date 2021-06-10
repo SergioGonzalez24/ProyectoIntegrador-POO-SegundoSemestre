@@ -1,24 +1,19 @@
-//Realizado por Jorge Rojas, A01745334
-
 #ifndef PELICULA_H
 #define PELICULA_H
-#include "Contenido.hpp"
-
 #include <string>
+#include "../include/Contenido.hpp"
 using namespace std;
-
+	
 class Pelicula : public Contenido {
+	private:
+		string genero;
+	public:
+		Pelicula();
+		Pelicula(string t, float d, int c, string genero);
 
-    private:
-    
-        string genero;
+		string genero() { return genero;}
 
-    public:
-        Pelicula(string t, float d, int c, string g);
-
-        void setGenero(string g);
-        void info();
+		virtual void mostrarDatos();
 
 };
-
 #endif
