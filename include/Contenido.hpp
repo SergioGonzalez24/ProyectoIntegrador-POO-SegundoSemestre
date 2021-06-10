@@ -2,6 +2,7 @@
 
 #ifndef CONTENIDO_H
 #define CONTENIDO_H
+#include "Reproduccion.hpp"
 
 #include <string>
 using namespace std;

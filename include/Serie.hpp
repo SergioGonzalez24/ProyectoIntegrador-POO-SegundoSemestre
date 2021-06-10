@@ -18,6 +18,12 @@ class Serie : public Contenido {
     public:
         Serie(string t, int d, string n, string g, string cap, string tem);
 
+        virtual void reproducir();
+		virtual void pausar();
+		virtual void adelantar(int valOpt);
+		virtual void retroceder(int valOpt);
+		virtual void repNormal();
+
 };
 
 #endif
