@@ -3,7 +3,7 @@
 /* 
 Codigo desaroyado por:
 Sergio Gonzalez - A01745446
-Jorge Rojas - A01745
+Jorge Rojas -  A01745334
 
 Fecha de creacion 03/05/2021
 

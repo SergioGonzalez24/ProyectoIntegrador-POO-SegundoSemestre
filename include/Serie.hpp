@@ -1,3 +1,4 @@
+//Codigo desaroyado por: Jorge Rojas - A01745
 #ifndef SERIE_H
 #define SERIE_H
 #include "Contenido.hpp"

@@ -1,3 +1,4 @@
+//Codigo desaroyado por: Jorge Rojas - A01745334
 #ifndef PELICULA_H
 #define PELICULA_H
 #include <string>

@@ -1,4 +1,4 @@
-//Realizado por Jorge Rojas, A01745334
+//Relizado por Sergio Gonzalez - A01745446
 
 #ifndef CONTENIDO_H
 #define CONTENIDO_H
