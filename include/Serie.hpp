@@ -20,6 +20,14 @@ class Serie : public Contenido {
 		void setTemporada(int temporada);
 		virtual void mostrarDatos();
 
+		/*
+		virtual void reproducir();
+		virtual void pausar();
+		virtual void adelantar(int valOpt);
+		virtual void retroceder(int valOpt);
+		virtual void repNormal();
+*/
+
 
 };
 #endif
