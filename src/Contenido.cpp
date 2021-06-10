@@ -4,11 +4,7 @@
 #include <iostream>
 
 //Constructores
-Contenido::Contenido(){
-    titulo = "Video";
-    duracion = 3000;
-    calificacion = 1;
-}
+Contenido::Contenido(){}
 Contenido::Contenido(string t, float d, int c){
     this-> titulo = t;
     this-> duracion = d;

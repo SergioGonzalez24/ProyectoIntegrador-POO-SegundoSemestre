@@ -17,6 +17,7 @@ class ServicioStreaming  {
 	public:
 		ServicioStreaming();
 		ServicioStreaming(string nServicio,string t, float d, int c);
+		string getNombreServicio() { return nombre; }
 		void setDatosContenido(string t, float d, int c);
 };
 #endif
