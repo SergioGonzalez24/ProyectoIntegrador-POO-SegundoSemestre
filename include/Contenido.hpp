@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 
-class Contenido{
+class Contenido {
 
     protected:
         string titulo;
@@ -15,9 +15,16 @@ class Contenido{
         
     public:
         Contenido();
-        Contenido(string t, int d);
+        Contenido(string t, float d, int c);
+
         void setCalificacion(int c);
+        void setTitulo(string t);
+        void setDuracion(float d);
+        
         int getCalificacion(){return calificacion;}
+        string getTitulo(){return titulo;}
+        float getDuracion(){return duracion;}
+        virtual void mostrarDatos();
         
 
 };

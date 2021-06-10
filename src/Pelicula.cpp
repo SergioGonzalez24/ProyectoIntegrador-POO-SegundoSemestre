@@ -2,10 +2,12 @@
 
 #include "../include/Pelicula.hpp"
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 //Constructores
-Pelicula::Pelicula(string t, int d, string g){
-    this-> titulo = t;
-    this-> duracion = d;
+Pelicula::Pelicula(string t, float d, int c, string g) : Contenido(string t, float d, int c){
+
     this-> genero = g;
 }

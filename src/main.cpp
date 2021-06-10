@@ -36,11 +36,6 @@ int main() {
     cin >> id;
     cout << endl;
     servicio.setDatosUsuario(usr,id);
-
     
-
-
-
-
     return 0;
 }

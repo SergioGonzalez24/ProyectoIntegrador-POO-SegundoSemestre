@@ -7,13 +7,32 @@
 Contenido::Contenido(){
     titulo = "Video";
     duracion = 3000;
+    calificacion = 1;
 }
-Contenido::Contenido(string t, int d){
+Contenido::Contenido(string t, float d, int c){
     this-> titulo = t;
     this-> duracion = d;
+    this-> calificacion = c;
 }
 
 //Calificación
 void Contenido::setCalificacion(int c){
     this-> calificacion = c;
+}
+
+void Contenido::setTitulo(string t){
+    this-> titulo = t;
+}
+
+void Contenido::setDuracion(float d){
+    this-> duracion = d;
+}
+
+
+
+
+void Contenido::mostrarDatos() {
+    cout << "Titulo: " << getTitulo() << endl;
+    cout << "Duracion: " << getDuracion() << endl;
+    cout << "Calificacion: " << getCalificacion() << endl;
 }
