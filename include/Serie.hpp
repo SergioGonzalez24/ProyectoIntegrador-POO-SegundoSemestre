@@ -15,7 +15,7 @@ class Serie : public Contenido {
 		int getCapitulo(){ return capitulo;}
 		int getTemporada(){ return temporada;}
 		void setCapitulo(int capitulo);
-		int getTemporada(){ return temporada;}
+		void setTemporada(int temporada);
 		virtual void mostrarDatos();
 
 		/*
