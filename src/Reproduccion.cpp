@@ -1,3 +1,4 @@
+//Relizado por Sergio Gonzalez - A01745446
 
 #include "../include/Reproduccion.hpp" 
 #include <iostream>

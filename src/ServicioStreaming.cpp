@@ -1,3 +1,5 @@
+//Relizado por Sergio Gonzalez - A01745446
+
 #include "../include/ServicioStreaming.hpp"
 
 #include "../include/Contenido.hpp"
