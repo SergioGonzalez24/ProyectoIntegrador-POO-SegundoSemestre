@@ -1,3 +1,5 @@
+//Realizado por Jorge Rojas, A01745334
+
 #include "../include/Pelicula.hpp" 
 #include <iostream>
 #include <string>

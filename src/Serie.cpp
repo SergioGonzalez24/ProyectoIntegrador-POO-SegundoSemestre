@@ -1,3 +1,5 @@
+//Realizado por Jorge Rojas, A01745334
+
 #include "../include/Serie.hpp"  
 #include "../include/Contenido.hpp"
 #include <string>
