@@ -3,4 +3,4 @@
   ../src/../include/../include/Reproduccion.hpp \
   ../src/../include/Contenido.hpp \
   ../src/../include/ServicioStreaming.hpp \
-  ../src/../include/Reproduccion.hpp
+  ../src/../include/Reproduccion.hpp ../src/../include/Serie.hpp

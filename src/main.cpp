@@ -16,6 +16,7 @@ Modelar un servicio de Streaming Utilizando OPP en c++
 #include "../include/Contenido.hpp"
 #include "../include/ServicioStreaming.hpp"
 #include "../include/Reproduccion.hpp"
+#include "../include/Serie.hpp"
 
 using namespace std;
 
@@ -62,8 +63,21 @@ int main() {
     }
 
     else if(op == 2) {
-        
+    
+        cout << "Ingrese la temporada de la Serie: " ;
+        int temporada;
+        cin >> temporada;
+        cout << endl;
+            
+        cout << "Ingrese la el capitulo de la Serie: " ;
+        int capitulo;
+        cin >> capitulo;
+        cout << endl;
+
+        Serie serie1(titulo,duracion,calificacion,capitulo,temporada);
+        serie1.mostrarDatos();
     }
     
+    cout << "Gracias y vuelva pronto";
     return 0;
 }
